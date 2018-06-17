@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainGrid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/artistButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="@string/artist"
+                android:textColor="@color/brightGreen" />
+
+            <Button
+                android:id="@+id/albumsButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="@string/album"
+                android:textColor="@color/brightGreen" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/genresButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="@string/genre"
+                android:textColor="@color/brightGreen" />
+
+            <Button
+                android:id="@+id/songsButton"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="@string/song"
+                android:textColor="@color/brightGreen" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
