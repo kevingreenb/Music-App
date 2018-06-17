@@ -4,4 +4,9 @@
     <string name="album">Albums</string>
     <string name="genre">Genres</string>
     <string name="song">Songs</string>
+    <string name="title_home">Home</string>
+    <string name="title_albums">Albums</string>
+    <string name="title_artists">Artists</string>
+    <string name="title_genres">Genres</string>
+    <string name="title_songs">Songs</string>
 </resources>
